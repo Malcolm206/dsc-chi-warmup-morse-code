@@ -87,7 +87,7 @@ def decode_morse(morse_code):
     # List for collecting characters that could
     # not be tranlated
     errors = []
-    # Create an empty string to append each word to
+    # Create an empty string to append each word
     decoded = ''
     # Create a list of encoded words
     words = morse_code.split('/')
@@ -115,7 +115,7 @@ def decode_morse(morse_code):
             # We add the decoded letter followed by a space.
             if idx == length - 1:
                 decoded += ' '
-    # The .strip method removes erroneous errors at the beginning
+    # The .strip method removes erroneous spaces at the beginning
     # and end of a string.
     decoded = decoded.strip()
     # If there are errors, we print them out. 
