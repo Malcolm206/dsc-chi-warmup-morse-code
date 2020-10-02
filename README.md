@@ -1,4 +1,3 @@
-
 # Decode Morse Code
 
 This morning we will be writing a function to translate a poem that has been encoded with morse code.
@@ -97,7 +96,7 @@ caesar_decoded = [decode_morse(line) for line in caesar]
 test.run_test(caesar_decoded, 'caesar')
 ```
 
-# Enjoy Mod 3 :)
+# Enjoy Phase 3 :)
 
 ![](https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif)
 
