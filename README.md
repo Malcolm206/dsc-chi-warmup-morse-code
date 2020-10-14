@@ -155,8 +155,6 @@ test.run_test(decoded_caesar, 'caesar')
 ✅ **Hey, you did it.  Good job.**
 
 
-# Enjoy Phase 3 :)
-
 ![](https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif)
 
 
